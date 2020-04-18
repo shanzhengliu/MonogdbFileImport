@@ -4,7 +4,7 @@
 This is a module to help you import json file into monogodb.
 ## How to install 
 
-```pip install MonogoFileImport```
+```pip install MongoFileImport```
 
 
 ## Using in command
@@ -16,19 +16,18 @@ There are 9 argument when you use in the command.
 --file|str|None|your file name
 |--dir|str|None|your dir name
 |--db|str|None|your database name
-|--help|str|None|use command MonogoFileImport --help to get information
 
 
 Example 1:
 import a folder with json files to your database 
 ```
-MonogoFileImport --mongourl mongo+srv://xxxxx --dir yourDir --db  databaseName to import your data
+MongoFileImport --mongourl mongodb+srv://username:password@cluster0-xxxxx.mongodb.net --db test --dir d:/Downloads/Dataset_22_March_2020/Dataset_22_March_2020/revisions
 ```
 
 Example 2:
 import a json files to your database 
 ```
-MonogoFileImport --mongourl mongo+srv://xxxxx --file yourfile --db  databaseName to import your data
+MongoFileImport --mongourl mongodb+srv://username:password@cluster0-xxxxx.mongodb.net --db test --file d:/Downloads/Dataset_22_March_2020/Dataset_22_March_2020/revisions/Australian.json
 ```
 
 

@@ -4,8 +4,8 @@ with open("README.md", "r",encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="MongoFIleImport",                                     # 包的分发名称，使用字母、数字、_、-
-    version="0.0.1",                                        # 版本号, 版本号规范：https://www.python.org/dev/peps/pep-0440/
+    name="MongoFileImport",                                     # 包的分发名称，使用字母、数字、_、-
+    version="0.0.5",                                        # 版本号, 版本号规范：https://www.python.org/dev/peps/pep-0440/
     author="shanzhengliu",                                       # 作者名字
     author_email="liushanzheng960522@outlook.com",                      # 作者邮箱
     description="import file to your mongodb database",                            # 包的简介描述
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'MonogoFileImport=MonogoFileImport:main',
+            'MongoFileImport=MongoFileImport:main',
         ]
     },
     install_requires = ["dnspython","pymongo"],  # 如果项目由多个文件组成，我们可以使用find_packages()自动发现所有包和子包，而不是手动列出每个包，在这种情况下，包列表将是example_pkg

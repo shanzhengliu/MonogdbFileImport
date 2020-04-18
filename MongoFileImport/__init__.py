@@ -9,12 +9,9 @@ def main():
     parser.add_argument("--file",type=str, default=None)
     parser.add_argument("--dir",type=str,default=None)
     parser.add_argument("--db",type=str,default=None)
-    parser.add_argument("--help", type=str, default=None)
+
 
     args = parser.parse_args()
-    if(args.help==None and args.mongourl == None):
-        print("you can user the command: MonogoFileImport --mongourl mongo+srv://xxxxx --dir yourDir --db  databaseName to import your data")
-        print("you can user the command: MonogoFileImport --mongourl mongo+srv://xxxxx --file yourfile --db  databaseName to import your data")
 
 
 

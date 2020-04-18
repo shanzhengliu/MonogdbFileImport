@@ -1,0 +1,10 @@
+README.md
+setup.py
+MongoFileImport/MongoFileImport.py
+MongoFileImport/__init__.py
+MongoFileImport.egg-info/PKG-INFO
+MongoFileImport.egg-info/SOURCES.txt
+MongoFileImport.egg-info/dependency_links.txt
+MongoFileImport.egg-info/entry_points.txt
+MongoFileImport.egg-info/requires.txt
+MongoFileImport.egg-info/top_level.txt
