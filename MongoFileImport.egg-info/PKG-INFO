@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: MongoFileImport
-Version: 0.0.5
+Version: 0.0.7
 Summary: import file to your mongodb database
 Home-page: https://github.com/shanzhengliu/MonogdbFileImport
 Author: shanzhengliu

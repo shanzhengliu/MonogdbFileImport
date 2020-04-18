@@ -30,7 +30,7 @@ def filepprocess(fileName,MongoClient,dbName):
         client = pymongo.MongoClient(MongoClient)
         db = client[dbName]
 
-        connectionName = fileName.replace(".json","")
+        connectionName = fileName.split("/")[-1].replace(".json","")
         if(connectionName[-1]=='.'):
             connectionName=connectionName[0:-1]
         collection = db[connectionName]
