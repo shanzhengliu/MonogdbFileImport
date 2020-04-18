@@ -11,7 +11,7 @@ setuptools.setup(
     description="import file to your mongodb database",                            # 包的简介描述
     long_description=long_description,                      # 包的详细介绍(一般通过加载README.md)
     long_description_content_type="text/markdown",          # 和上条命令配合使用，声明加载的是markdown文件
-    url="https://github.com/shanzhengliu/SimpleSpider",                              # 项目开源地址，我这里写的是同性交友官网，大家可以写自己真实的开源网址
+    url="https://github.com/shanzhengliu/MonogdbFileImport",                              # 项目开源地址，我这里写的是同性交友官网，大家可以写自己真实的开源网址
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
