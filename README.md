@@ -32,7 +32,7 @@ import a json files to your database, the name of collection is  the name of fil
 MongoFileImport --mongourl mongodb+srv://username:password@cluster0-xxxxx.mongodb.net --db test --file d:/Downloads/Dataset_22_March_2020/Dataset_22_March_2020/revisions/Australian.json
 ```
 Example 3:
-import a folder with json file into one collection, the name will be set in --cn 
+import a folder with json files into one collection, the name will be set in --cn 
 ```
 MongoFileImport --mongourl mongodb+srv://username:password@cluster0-xxxxx.mongodb.net --db test --dir d:/Downloads/Dataset_22_March_2020/Dataset_22_March_2020/revisions/ --cn collectionname
 ```
