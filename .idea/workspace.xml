@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0c57f024-f25f-4e8d-a912-9286b35026a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport.egg-info/top_level.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MongoFileImport/MongoFileImport.py" beforeDir="false" afterPath="$PROJECT_DIR$/MongoFileImport/MongoFileImport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoFileImport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MongoFileImport/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/MongoFileImport-0.0.7.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587208339500</updated>
-      <workItem from="1587208341217" duration="6415000" />
+      <workItem from="1587208341217" duration="6650000" />
+      <workItem from="1587271773877" duration="1043000" />
     </task>
     <servers />
   </component>
@@ -100,7 +110,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
